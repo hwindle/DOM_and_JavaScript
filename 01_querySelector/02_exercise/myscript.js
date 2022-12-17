@@ -11,3 +11,11 @@
 */
 
 // Write your JavaScript below
+const paragraphs = document.querySelectorAll('p');
+console.log(paragraphs[1]);
+
+const listItemsArr = document.querySelectorAll('li.list');
+listItemsArr.forEach((li) => console.log(li));
+
+console.log(listItemsArr[2].textContent);
+console.log('List of li\'s length: ', listItemsArr.length);
