@@ -1,0 +1,58 @@
+/***************************************
+* IMAGES
+*
+* Including figure, hover effects over images
+* and captions
+***************************************/
+
+/* cards */
+section.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+div.wishlist-card {
+  flex-basis: 30vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+  margin: 1rem 0;
+  background-color: var(--blush);
+}
+
+.wishlist-card h5 {
+  flex-grow: 1;
+}
+
+a.buy-button {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  text-align: center;
+  text-shadow: -1px -1px 0 2px rgb(0, 0, 0, 0.6),
+    1px 1px 0 2px rgb(0, 0, 0, 0.6);
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: var(--orange);
+}
+
+a.buy-button:hover,
+a.buy-button:focus {
+  border: 2px solid var(--orange);
+  background-color: var(--yellow);
+  color: black;
+  text-shadow: -1px -1px 0 2px var(--orange),
+    1px 1px 0 2px var(--orange);
+}
+
+.wishlist-card p {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 1.4em;
+  letter-spacing: 2px;
+  width: 100%;
+}
